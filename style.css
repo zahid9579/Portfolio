@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins' sans-serif;
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(18, 18, 62);
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+nav ul li{
+    margin: 0 12px ;
+    
+}
+
+/* Media query for smaller screens*/
+@media screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    nav ul{
+        margin-top: 10px;
+    }
+
+    nav ul li{
+        margin: 5px 0;
+    }
+    }
+    
+
+
+nav ul li a{
+   
+    text-decoration:none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+
+    
+
+}
+
+
+nav a:hover{
+    color:aqua;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    border-bottom: 2px solid aqua;
+    
+
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+
+.left{
+    font-size: 1.5rem;
+    
+}
+
+.firstSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:140px 0 ;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2rem;
+   
+}
+
+.rightSection img{
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+    
+.purple{
+    color: #af60f8;
+}
+
+
+#element{
+    color: #af60f8;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection{
+    font-size: 1.9rem;
+}
+
+ 
+.abouts p{
+    background-color:rgb(18, 18, 62); 
+    padding: 12px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 40px;
+    
+    
+   
+}
+
+#about{
+    color: #af60f8;
+    margin-left:9rem;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 14px;
+
+}
+
+
+
+.text-gray{
+    color: gray;
+}
+
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color:white ;
+    margin: 0 100px;
+}
+.experiences{
+    font-size: 20px;
+    margin-top: 90px;
+    color: gray;
+
+}
+
+.exper{
+    font-size: 20px;
+    margin-top: 90px;
+    color: grey;
+
+}
+#frt{
+    color: #af60f8;
+    margin: 7px;
+}
+#cs{
+color: #af60f8;
+margin: 7px;
+}
+
+.bkend{
+    font-size: 20px;
+    margin-top: 90px;
+    color: gray;
+
+}
+
+#bk{
+color: #af60f8;
+margin: 7px;
+}
+
+.extra{
+    font-size: 20px;
+    margin-top: 90px;
+    color:gray ;
+
+}
+
+#adtion{
+    color: #af60f8;
+    margin: 7px;
+}
+
+.container2{
+    text-align:center;
+    justify-content: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    font-size: 20px;
+    background-color: rgb(52, 48, 48);
+    
+   
+}
+#cont{
+    text-align: left;
+    padding-left: 22%;
+    color: #af60f8;
+}
+
+
+#cpy{
+    font-size: 15px;
+    color: white;
+    padding-left: 18%;
+    margin-bottom: 30px;
+    font-size: 13px;
+    
+}
+
+.code{
+    background: rgb(52, 48, 48);
+    padding:10px;
+    padding-left: 6%;
+    color: #af60f8;
+    
+}
+
+
+
+
